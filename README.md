@@ -34,8 +34,28 @@ This section shows how to run the simulation and the results of the **PID contro
 
 ## a. **PID controller:**   
 
+Follow these commands in order to run the flying mode:
 
+```
+# run ros model
+ros2 launch ahsmcekf model.launch.py
+# start the EKF
+ros2 run ahsmcekf EKFnode
+# start the PID controller
+ros2 run ahsmcekf pidcontroller
+```
 
+## b. **AHSMC controller:**   
 
+Follow these commands in order to run the flying mode:
+
+```
+# run ros model
+ros2 launch ahsmcekf model.launch.py
+# start the EKF
+ros2 run ahsmcekf EKFnode
+# start the PID controller
+ros2 run ahsmcekf ahsmc
+```
 
  
