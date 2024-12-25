@@ -23,7 +23,7 @@ $ echo "source ~/dev_ws/devel/setup.bash" >> ~/.bashrc
 $ cd ~/dev_ws/src
 $ git clone --recursive https://github.com/aralab-unr/AHSMC_EKF-for-Quadrotors-UAVs-on-Gazebo-ROS-2.git
 
-# Step 3: Build the catkin workspace for this package
+# Step 3: Build the colcon workspace for this package
 $ cd ~/dev_ws
 $ colcon build
 ```
