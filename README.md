@@ -49,7 +49,6 @@ https://github.com/user-attachments/assets/e69b67f7-c803-499f-bc4b-a7700a03e951
 
 <p align='center'>
     <img src="ahsmc/figures/positionpid.png" />
-    <img src="ahsmc/figures/angularpid.png" />
 </p>
 
 ## b. **AHSMC controller:**   
