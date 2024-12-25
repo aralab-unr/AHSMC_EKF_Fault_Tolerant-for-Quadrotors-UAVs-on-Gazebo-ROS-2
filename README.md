@@ -48,7 +48,13 @@ ros2 run ahsmcekf pidcontroller
 https://github.com/user-attachments/assets/e69b67f7-c803-499f-bc4b-a7700a03e951
 
 <p align='center'>
-    <img src="ahsmc/figures/positionpid.png" />
+    <img src="ahsmcekf/figures/positionpid.png" />
+    <img src="ahsmcekf/figures/angularpid.png" />
+</p>
+
+<p align='center'>
+    <img src="ahsmcekf/figures/controlpid.png" />
+    <img src="ahsmcekf/figures/propellerspid.png" />
 </p>
 
 ## b. **AHSMC controller:**   
