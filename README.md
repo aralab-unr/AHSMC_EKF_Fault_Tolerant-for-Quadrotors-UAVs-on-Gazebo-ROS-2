@@ -62,11 +62,8 @@ ros2 run ahsmcekf EKFnode
 ros2 run ahsmcekf ahsmc
 ```
 
+https://github.com/user-attachments/assets/38294089-8d5d-492a-83d5-44817a3df8c5
 
-https://github.com/user-attachments/assets/8df2d805-6158-4f5e-989b-b84300cbb69e
-
-
- 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
 - [Hung La](mailto:hla@unr.edu)
