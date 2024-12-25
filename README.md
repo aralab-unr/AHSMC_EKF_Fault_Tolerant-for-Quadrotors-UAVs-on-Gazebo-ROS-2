@@ -27,3 +27,12 @@ $ git clone --recursive https://github.com/aralab-unr/AHSMC_EKF-for-Quadrotors-U
 $ cd ~/dev_ws
 $ colcon build
 ```
+This project uses a custom plugin. Users need to update the plugin path in the file /urdf/uav_drone.urdf.xacro at line 268. Replace: filename="/home/vanchung/dev_ws/install/ahsmcekf/lib/ahsmcekf/libuavplugin.so" with the correct path by changing vanchung to the name of your computer. Then rebuild the project again to run the simulation.
+
+
+
+
+
+
+
+ 
