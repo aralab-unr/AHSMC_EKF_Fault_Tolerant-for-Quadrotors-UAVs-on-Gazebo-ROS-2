@@ -34,7 +34,7 @@ This section shows how to run the simulation and the results of the **PID contro
 
 ## a. **PID controller:**   
 
-Follow these commands in order to run the flying mode:
+Follow these commands in order to run the PID simulation:
 
 ```
 # run ros model
@@ -64,7 +64,7 @@ The simulation results of the PID controller:
 
 ## b. **AHSMC controller:**   
 
-Follow these commands in order to run the flying mode:
+Follow these commands in order to run the AHSMC simulation:
 
 ```
 # run ros model
@@ -78,7 +78,7 @@ The video of the AHSMC controller:
 
 https://github.com/user-attachments/assets/38294089-8d5d-492a-83d5-44817a3df8c5
 
-The simulation results of the PID controller: 
+The simulation results of the AHSMC controller: 
 
 <p align="center">
     <img src="ahsmcekf/figures/positionahsmc.png" style="display: inline-block; width: 45%;" />
