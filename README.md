@@ -45,6 +45,10 @@ ros2 run ahsmcekf EKFnode
 ros2 run ahsmcekf pidcontroller
 ```
 
+
+https://github.com/user-attachments/assets/e69b67f7-c803-499f-bc4b-a7700a03e951
+
+
 ## b. **AHSMC controller:**   
 
 Follow these commands in order to run the flying mode:
@@ -57,6 +61,10 @@ ros2 run ahsmcekf EKFnode
 # start the PID controller
 ros2 run ahsmcekf ahsmc
 ```
+
+
+https://github.com/user-attachments/assets/8df2d805-6158-4f5e-989b-b84300cbb69e
+
 
  
 # Contact
