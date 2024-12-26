@@ -9,6 +9,7 @@ The custom controller is designed in:
 - ROS2 Humble
 - Gazebo 11
 - Xarco-ROS-Humble (sudo apt install ros-humble-xacro)
+- Gazebo_ros_pkgs (sudo apt install ros-humble-gazebo-ros-pkgs)
 
 Follow these commands to install the package:
 
