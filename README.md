@@ -22,7 +22,7 @@ $ echo "source ~/dev_ws/devel/setup.bash" >> ~/.bashrc
 
 # Step 2: Clone this repo into your workspace
 $ cd ~/dev_ws/src
-$ git clone --recursive https://github.com/aralab-unr/AHSMC_EKF_Fault_Tolerant-for-Quadrotors-UAVs-on-Gazebo-ROS-2.git
+download the folder ahsmcekf in the main branch
 
 # Step 3: Build the colcon workspace for this package
 $ cd ~/dev_ws
@@ -94,6 +94,54 @@ The simulation results of the AHSMC controller:
 <p align="center">
     <img src="ahsmcekf/figures/controlahsmc.png" style="display: inline-block; width: 45%; margin-right: 2%;" />
     <img src="ahsmcekf/figures/propellerahsmc.png" style="display: inline-block; width: 45%;" />
+</p>
+
+# Contents
+This section shows how to run the simulation and the fault-tolerant of the Quadrotor:
+
+Follow these commands to install the package:
+
+```shell
+# Step 1: Create and build a colcon workspace:
+$ mkdir -p ~/dev_ws/src
+$ cd ~/dev_ws/
+$ colcon build
+$ echo "source ~/dev_ws/devel/setup.bash" >> ~/.bashrc
+
+# Step 2: Clone this repo into your workspace
+$ cd ~/dev_ws/src
+download the folder ahsmcmotorfailure in the main branch
+
+# Step 3: Build the colcon workspace for this package
+$ cd ~/dev_ws
+$ colcon build
+```
+
+Follow these commands in order to run the fault-tolerant simulation:
+
+```
+# run ros model
+ros2 launch ahsmcmotorfailure model.launch.py
+# start controller
+ros2 run ahsmcmotorfailure ahsmcmotorfailure
+
+```
+The video of the PID controller: 
+
+
+https://github.com/user-attachments/assets/5ab21d7f-6e5f-4760-8d93-c2ff7ca8c9e6
+
+The simulation results of the fault-tolerant simulation: 
+
+<p align="center">
+    <img src="ahsmcmotorfailure/figures/positionfailure.png" style="display: inline-block; width: 45%;" />
+    <img src="ahsmcmotorfailure/figures/angularfailure.png" style="display: inline-block; width: 45%;" />
+</p>
+
+
+<p align="center">
+    <img src="ahsmcmotorfailure/figures/controlfailure.png" style="display: inline-block; width: 45%; margin-right: 2%;" />
+    <img src="ahsmcmotorfailure/figures/propellerfailure.png" style="display: inline-block; width: 45%;" />
 </p>
 
 # Contact
