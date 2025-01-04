@@ -51,16 +51,7 @@ https://github.com/user-attachments/assets/e69b67f7-c803-499f-bc4b-a7700a03e951
 
 The simulation results of the PID controller: 
 
-<p align="center">
-    <img src="ahsmcekf/figures/positionpid.png" style="display: inline-block; width: 45%;" />
-    <img src="ahsmcekf/figures/angularpid.png" style="display: inline-block; width: 45%;" />
-</p>
 
-
-<p align="center">
-    <img src="ahsmcekf/figures/controlpid.png" style="display: inline-block; width: 45%; margin-right: 2%;" />
-    <img src="ahsmcekf/figures/propellerspid.png" style="display: inline-block; width: 45%;" />
-</p>
 
 
 ## b. **AHSMC controller:**   
@@ -81,16 +72,7 @@ https://github.com/user-attachments/assets/38294089-8d5d-492a-83d5-44817a3df8c5
 
 The simulation results of the AHSMC controller: 
 
-<p align="center">
-    <img src="ahsmcekf/figures/positionahsmc.png" style="display: inline-block; width: 45%;" />
-    <img src="ahsmcekf/figures/angularahsmc.png" style="display: inline-block; width: 45%;" />
-</p>
 
-
-<p align="center">
-    <img src="ahsmcekf/figures/controlahsmc.png" style="display: inline-block; width: 45%; margin-right: 2%;" />
-    <img src="ahsmcekf/figures/propellerahsmc.png" style="display: inline-block; width: 45%;" />
-</p>
 
 # Contact
 - [Van Chung Nguyen](mailto:vanchungn@.unr.edu)
