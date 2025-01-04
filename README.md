@@ -51,16 +51,6 @@ https://github.com/user-attachments/assets/e69b67f7-c803-499f-bc4b-a7700a03e951
 
 The simulation results of the PID controller: 
 
-<p align="center">
-    <img src="ahsmcekf/figures/positionpid.png" style="display: inline-block; width: 45%;" />
-    <img src="ahsmcekf/figures/angularpid.png" style="display: inline-block; width: 45%;" />
-</p>
-
-
-<p align="center">
-    <img src="ahsmcekf/figures/controlpid.png" style="display: inline-block; width: 45%; margin-right: 2%;" />
-    <img src="ahsmcekf/figures/propellerspid.png" style="display: inline-block; width: 45%;" />
-</p>
 
 
 ## b. **AHSMC controller:**   
