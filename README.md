@@ -22,7 +22,7 @@ $ echo "source ~/dev_ws/devel/setup.bash" >> ~/.bashrc
 
 # Step 2: Clone this repo into your workspace
 $ cd ~/dev_ws/src
-$ git clone --recursive https://github.com/aralab-unr/AHSMC_EKF-for-Quadrotors-UAVs-on-Gazebo-ROS-2.git
+$ git clone --recursive https://github.com/aralab-unr/AHSMC_EKF_Fault_Tolerant-for-Quadrotors-UAVs-on-Gazebo-ROS-2.git
 
 # Step 3: Build the colcon workspace for this package
 $ cd ~/dev_ws
