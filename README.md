@@ -62,7 +62,7 @@ The simulation results of the PID controller:
     <img src="ahsmcekf/figures/propellerspid.png" style="display: inline-block; width: 45%;" />
 </p>
 
-
+s
 ## b. **AHSMC controller:**   
 
 Follow these commands in order to run the AHSMC simulation:
