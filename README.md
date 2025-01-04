@@ -46,8 +46,7 @@ ros2 run ahsmcekf EKFnode
 ros2 run ahsmcekf pidcontroller
 ```
 The video of the PID controller: 
-
-https://github.com/user-attachments/assets/e69b67f7-c803-499f-bc4b-a7700a03e951
+https://github.com/user-attachments/assets/72e6682b-169f-4515-88e3-fb444d1b5dce
 
 The simulation results of the PID controller: 
 
@@ -76,8 +75,7 @@ ros2 run ahsmcekf EKFnode
 ros2 run ahsmcekf ahsmc
 ```
 The video of the AHSMC controller: 
-
-https://github.com/user-attachments/assets/38294089-8d5d-492a-83d5-44817a3df8c5
+https://github.com/user-attachments/assets/c1cfc698-11ea-47aa-a623-30b6bdab15b4
 
 The simulation results of the AHSMC controller: 
 
