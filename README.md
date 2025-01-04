@@ -96,7 +96,7 @@ The simulation results of the AHSMC controller:
     <img src="ahsmcekf/figures/propellerahsmc.png" style="display: inline-block; width: 45%;" />
 </p>
 
-# Contents
+# Fault Tolerant controller for the Quadrotor UAVs
 This section shows how to run the simulation and the fault-tolerant of the Quadrotor:
 
 Follow these commands to install the package:
