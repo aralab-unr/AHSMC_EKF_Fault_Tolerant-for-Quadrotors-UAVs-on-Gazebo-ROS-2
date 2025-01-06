@@ -38,15 +38,12 @@ link_directories(${GAZEBO_LIBRARY_DIRS})
 
 add_executable(ahsmc src/ahsmc.cpp)
 ament_target_dependencies(ahsmc rclcpp sensor_msgs std_msgs tf2_ros gazebo_msgs std_srvs nav_msgs)
-target_link_libraries(ahsmc ${CASADI_LIBRARY})
 
 add_executable(pidcontroller src/pidcontroller.cpp)
 ament_target_dependencies(pidcontroller rclcpp sensor_msgs std_msgs tf2_ros gazebo_msgs std_srvs nav_msgs)
-target_link_libraries(ahsmc ${CASADI_LIBRARY})
 
 add_executable(EKFnode src/EKFnode.cpp)
 ament_target_dependencies(EKFnode rclcpp sensor_msgs std_msgs tf2_ros gazebo_msgs std_srvs nav_msgs)
-target_link_libraries(EKFnode ${CASADI_LIBRARY})
 
 # Add Eigen3 to the EKFnode target
 target_include_directories(EKFnode PRIVATE ${EIGEN3_INCLUDE_DIR})
