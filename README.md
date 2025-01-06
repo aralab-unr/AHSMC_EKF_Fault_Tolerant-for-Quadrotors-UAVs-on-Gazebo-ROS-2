@@ -122,6 +122,8 @@ Follow these commands in order to run the fault-tolerant simulation:
 ```
 # run ros model
 ros2 launch ahsmcmotorfailure model.launch.py
+# start the EKF
+ros2 run ahsmcmotorfailure EKFnode
 # start controller
 ros2 run ahsmcmotorfailure ahsmcmotorfailure
 
