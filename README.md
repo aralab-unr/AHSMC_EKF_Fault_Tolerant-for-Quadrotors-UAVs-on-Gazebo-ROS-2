@@ -128,7 +128,7 @@ ros2 run ahsmcmotorfailure EKFnode
 ros2 run ahsmcmotorfailure ahsmcmotorfailure
 
 ```
-The video of the PID controller: 
+The video of the controller: 
 
 
 https://github.com/user-attachments/assets/5ab21d7f-6e5f-4760-8d93-c2ff7ca8c9e6
