@@ -1,6 +1,11 @@
 # AHSMC_EKF_Fault_Tolerant-for-Quadrotors-UAVs-on-Gazebo-ROS-2
 This repository provides a methodology for controlling Quadrotor Unmanned Aerial Vehicles (UAVs) on Gazebo/Ros 2 Humble
 
+## Hardware Requirements & Setup
+Please see the following file:
+[Instruction_QUAD_RSS.pdf](https://github.com/user-attachments/files/19695226/Instruction_QUAD_RSS.pdf)
+
+
 ## Software Requirements & Setup
 
 The custom controller is designed in:
